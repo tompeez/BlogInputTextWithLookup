@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="11.1.1.62.29" id="DataBindings" SeparateXMLFiles="false"
+             Package="de.hahn.blog.inputtextwithlookup.view"
+             ClientType="Generic">
+  <definitionFactories>
+    <factory nameSpace="http://xmlns.oracle.com/adf/controller/binding" className="oracle.adf.controller.internal.binding.TaskFlowBindingDefFactoryImpl"/>
+    <dtfactory className="oracle.adf.controller.internal.dtrt.binding.BindingDTObjectFactory"/>
+  </definitionFactories>
+  <pageMap>
+    <page path="/WEB-INF/fragments/test1.jsff" usageId="de_hahn_blog_inputtextwithlookup_view_test1PageDef"/>
+    <page path="/Page1.jspx" usageId="de_hahn_blog_inputtextwithlookup_view_Page1PageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="de_hahn_blog_inputtextwithlookup_view_test1PageDef" path="fragments.test1PageDef"/>
+    <page id="de_hahn_blog_inputtextwithlookup_view_Page1PageDef" path="de.hahn.blog.inputtextwithlookup.view.pageDefs.Page1PageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <BC4JDataControl id="BITWLAppModuleDataControl" Package="de.hahn.blog.inputtextwithlookup.model.facade"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true" SupportsFindMode="true" SupportsRangesize="true"
+                     SupportsResetState="true" SupportsSortCollection="true" Configuration="BITWLAppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

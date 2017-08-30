@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:DI='http://xmlns.omg.org/DI/2.0'>
+  <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.1.6.0'/>
+  <DI:Diagram xmi:id='id8c398df8-88c2-4c2b-b6f2-82c40777d918' zoom='0.0'>
+    <contained xmi:type='DI:GraphNode' xmi:id='idd9c37d1c-c056-4d6c-afa2-ea974bf3f9d1'>
+      <anchorage xmi:id='idf3a3b560-8ed1-44b7-8532-95e15bf52305' graphEdge='id0e59f593-4bc7-49b9-8ed9-f6c843a1205d id0e59f593-4bc7-49b9-8ed9-f6c843a1205d'/>
+      <contained xmi:type='DI:GraphNode' xmi:id='idfac3cccf-cd79-4976-b086-9609d35f17d1'>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id2a2a69f5-3a5f-4d8a-b0f8-23a028e73889'>
+        <contained xmi:type='DI:GraphNode' xmi:id='id4021a938-5ee3-4f81-ab83-5a3d6946949d'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='AttributeCompartment'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='ide4347a99-7782-4a2e-a15d-0f8b7ecfce70'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationCompartment'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
+        <size height='210.6650390625' width='200.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='idb0781930-868e-423b-8b13-51a82a919dc1'>
+        <contained xmi:type='DI:GraphNode' xmi:id='id38097cc4-b2a0-4e8b-a517-1ca75f97f0bc'>
+          <contained xmi:type='DI:GraphNode' xmi:id='id284802f2-5c90-46bb-9ee3-bdef97284940'>
+            <property key='FirstVisibleIndex' value='0'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='AttributeCompartment'/>
+            <size height='1.0' width='0.0'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='id9c975614-18f6-449f-895e-0865d35a7820'>
+            <property key='FirstVisibleIndex' value='0'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationCompartment'/>
+            <size height='1.0' width='0.0'/>
+          </contained>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Component'/>
+          <size height='80.0' width='33.33333206176758'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id98b9c764-d369-4036-bcaf-54acb3d3a64e'>
+          <position x='0.0' y='0.0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='EXPANDED'/>
+        <size height='210.6650390625' width='200.0'/>
+      </contained>
+      <position x='774.0' y='30.29998779296875'/>
+      <property key='showOperations' value='false'/>
+      <property key='excludeAttrFilter' value=''/>
+      <property key='showAttributeType' value='true'/>
+      <property key='showPackage' value='true'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='operationShowParameters' value='0'/>
+      <property key='showMethodType' value='true'/>
+      <property key='showAttributes' value='true'/>
+      <property key='fontColor' value='#0'/>
+      <property key='fillColor' value='#a5e7ff'/>
+      <property key='showMethodStatic' value='true'/>
+      <property key='showMethodVisibility' value='true'/>
+      <property key='excludeMethodFilter' value=''/>
+      <property key='filterMethodViz' value='PUBLIC PROTECTED PACKAGE PRIVATE'/>
+      <property key='showStereotype' value='false'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.bo.Employees::EntityObject' presentation='SYMBOLIC'/>
+      <size height='210.6650390625' width='200.0'/>
+    </contained>
+    <contained xmi:type='DI:GraphNode' xmi:id='id0a964f56-799d-4281-8036-7314952420ca'>
+      <anchorage xmi:id='id3e120ca8-5ae2-4cb4-a2d9-0a8fed943b39' graphEdge='idbe2b41f3-d134-4b2f-8e9f-9b6a367e630d idbe2b41f3-d134-4b2f-8e9f-9b6a367e630d'/>
+      <contained xmi:type='DI:GraphNode' xmi:id='id6639d597-96a5-43a7-99fe-52c2a34aae36'>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='idaac79b9a-cc61-4b76-8dc6-4ae0732b73b8'>
+        <contained xmi:type='DI:GraphNode' xmi:id='id99028bdf-1c5d-4e0c-a1c7-2e1267294f9b'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='AttributeCompartment'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id38c493c1-4bc6-4141-a307-1c65639cc38d'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationCompartment'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id0d38aa43-2bb7-4c66-8748-704d7c8441cc'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='ClassifierCompartment'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id6aecb31e-9c0c-4379-b237-480356ace2fc'>
+        <contained xmi:type='DI:GraphNode' xmi:id='id4e56cb06-8649-4f21-87a6-b9a3511f94d3'>
+          <contained xmi:type='DI:GraphNode' xmi:id='id80b97276-defb-44cc-a8ef-2c8698c28c7d'>
+            <property key='FirstVisibleIndex' value='0'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='AttributeCompartment'/>
+            <size height='1.0' width='0.0'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='idb9a706aa-8fb9-4be3-8c93-13ca91bd4d76'>
+            <property key='FirstVisibleIndex' value='0'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationCompartment'/>
+            <size height='1.0' width='0.0'/>
+          </contained>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Component'/>
+          <size height='80.0' width='100.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='idb2c85b6c-dcf6-4a1d-a155-c5417306e92c'>
+          <contained xmi:type='DI:GraphNode' xmi:id='idb80f47a8-08bb-4c2c-a67d-c3ebb7a52f6d'>
+            <contained xmi:type='DI:GraphNode' xmi:id='id9c03a7d0-ec91-4bc0-bf79-2a8aa5c44ea8'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+              <size height='40.0' width='100.0'/>
+            </contained>
+            <position x='0.0' y='0.0'/>
+            <property key='fontColor' value='#0'/>
+            <property key='fillColor' value='#a5e7ff'/>
+            <property key='showPackage' value='false'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='showStereotype' value='false'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.vo.EmployeesView.Employees::EntityObjectInstance' presentation='COMPACT'/>
+            <size height='40.0' width='100.0'/>
+          </contained>
+          <position x='0.0' y='0.0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='EXPANDED'/>
+        <size height='244.6650390625' width='330.0'/>
+      </contained>
+      <position x='404.0' y='30.29998779296875'/>
+      <property key='showOperations' value='false'/>
+      <property key='excludeAttrFilter' value=''/>
+      <property key='showAttributeType' value='true'/>
+      <property key='showPackage' value='true'/>
+      <property key='showInnerClasses' value='true'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='operationShowParameters' value='0'/>
+      <property key='showMethodType' value='true'/>
+      <property key='showAttributes' value='true'/>
+      <property key='fontColor' value='#0'/>
+      <property key='fillColor' value='#a5e7ff'/>
+      <property key='showMethodStatic' value='true'/>
+      <property key='showMethodVisibility' value='true'/>
+      <property key='excludeMethodFilter' value=''/>
+      <property key='filterMethodViz' value='PUBLIC PROTECTED PACKAGE PRIVATE'/>
+      <property key='showStereotype' value='false'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.vo.EmployeesView::ViewObject' presentation='EXPANDED'/>
+      <size height='244.6650390625' width='330.0'/>
+    </contained>
+    <contained xmi:type='DI:GraphNode' xmi:id='idab6c1fb1-1685-4a59-b34b-1e74608a9243'>
+      <contained xmi:type='DI:GraphNode' xmi:id='id3c262707-5506-447e-965c-758251f42167'>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id630bde74-58d0-4873-8eb8-d20ec581f79f'>
+        <contained xmi:type='DI:GraphNode' xmi:id='iddf2fbde5-e0c6-4a89-aea9-ddab086c0ed2'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationCompartment'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id7dffdb01-61a7-4811-a151-cfe4ccca7e22'>
+          <property key='FirstVisibleIndex' value='0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='ClassifierCompartment'/>
+          <size height='1.0' width='0.0'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='SYMBOLIC'/>
+        <size height='100.0' width='100.0'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id27c853f8-6d31-44b9-99d2-818757cff008'>
+        <contained xmi:type='DI:GraphNode' xmi:id='ide55216e0-59a5-4028-baf6-d48121d4d2f7'>
+          <contained xmi:type='DI:GraphNode' xmi:id='id510bf090-f9a3-4f21-9126-4f188a29b799'>
+            <property key='FirstVisibleIndex' value='0'/>
+            <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='OperationCompartment'/>
+            <size height='1.0' width='0.0'/>
+          </contained>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='Component'/>
+          <size height='80.0' width='100.0'/>
+        </contained>
+        <contained xmi:type='DI:GraphNode' xmi:id='id42179153-bf53-4c60-bfa9-6d2ba711fc91'>
+          <contained xmi:type='DI:GraphNode' xmi:id='id5a073b8f-13db-4db7-a2fe-b16f027e7e2a'>
+            <anchorage xmi:id='ide25cff44-addf-4c3a-8e14-46dd77746658' graphEdge='id8a67529a-05d8-413b-a593-1fee40a9b73b'/>
+            <contained xmi:type='DI:GraphNode' xmi:id='id61bf2b44-d6ff-4428-9b35-6460d190b7bd'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+              <size height='40.0' width='100.0'/>
+            </contained>
+            <position x='140.0' y='100.60000610351562'/>
+            <property key='fontColor' value='#0'/>
+            <property key='fillColor' value='#a5e7ff'/>
+            <property key='showPackage' value='false'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='showStereotype' value='false'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.facade.BITWLAppModule.EmployeesView1::ViewObjectInstance' presentation='COMPACT'/>
+            <size height='40.0' width='100.0'/>
+          </contained>
+          <contained xmi:type='DI:GraphNode' xmi:id='idd4020bc6-6c9a-4098-a2c9-b656df49b587'>
+            <anchorage xmi:id='idf6217b08-12b3-4562-a274-5473dd7155a4' graphEdge='id8a67529a-05d8-413b-a593-1fee40a9b73b'/>
+            <contained xmi:type='DI:GraphNode' xmi:id='id27130ba5-cb15-4c9b-ab29-03bafd99d13d'>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='COMPACT'/>
+              <size height='40.0' width='100.0'/>
+            </contained>
+            <position x='140.0' y='0.0'/>
+            <property key='fontColor' value='#0'/>
+            <property key='fillColor' value='#a5e7ff'/>
+            <property key='showPackage' value='false'/>
+            <property key='lineColor' value='#a5a5a5'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='showStereotype' value='false'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.facade.BITWLAppModule.EmployeesView2::ViewObjectInstance' presentation='COMPACT'/>
+            <size height='40.0' width='100.0'/>
+          </contained>
+          <contained xmi:type='DI:GraphEdge' xmi:id='id8a67529a-05d8-413b-a593-1fee40a9b73b' anchor='ide25cff44-addf-4c3a-8e14-46dd77746658 idf6217b08-12b3-4562-a274-5473dd7155a4'>
+            <contained xmi:type='DI:GraphNode' xmi:id='idd9c7dffe-1c7b-4184-8de9-523129681f3a'>
+              <position x='0.0' y='0.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sourcename'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id36a745ca-066d-4202-a85b-c26403d99daf'>
+              <position x='0.0' y='0.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sourcemultiplicity'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id388e3281-a1fb-4c37-91cb-71c7a9e95ddc'>
+              <position x='0.0' y='0.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='stereotype'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id384c20ee-2b3e-4ebc-b424-11bf5da05ca6'>
+              <position x='0.0' y='0.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='ida9146165-4375-4a98-8ca0-9fc78a5127b8'>
+              <position x='0.0' y='0.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='destinationname'/>
+            </contained>
+            <contained xmi:type='DI:GraphNode' xmi:id='id52331d62-2b71-4b73-9ec1-92cf20475879'>
+              <position x='0.0' y='0.0'/>
+              <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='destinationmultiplicity'/>
+            </contained>
+            <property key='fontColor' value='#0'/>
+            <property key='showRoleNames' value='true'/>
+            <property key='lineWidth' value='1.0'/>
+            <property key='lineColor' value='#646464'/>
+            <property key='font' value='SansSerif,plain,11'/>
+            <property key='showCardinality' value='false'/>
+            <property key='showAssocName' value='false'/>
+            <property key='EdgeType' value='1'/>
+            <property key='showStereotype' value='false'/>
+            <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.facade.BITWLAppModule.EmpManagerFkLink1::ViewLinkInstance'/>
+            <waypoint x='190.0' y='100.60000610351562'/>
+            <waypoint x='190.0' y='40.0'/>
+          </contained>
+          <position x='0.0' y='0.0'/>
+          <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='BodyCompartment'/>
+        </contained>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='EXPANDED'/>
+        <size height='164.60000610351562' width='364.0'/>
+      </contained>
+      <position x='0.0' y='30.29998779296875'/>
+      <property key='fontColor' value='#0'/>
+      <property key='showOperations' value='false'/>
+      <property key='fillColor' value='#a5e7ff'/>
+      <property key='showPackage' value='true'/>
+      <property key='showInnerClasses' value='true'/>
+      <property key='showMethodStatic' value='true'/>
+      <property key='showMethodVisibility' value='true'/>
+      <property key='lineColor' value='#a5a5a5'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='operationShowParameters' value='0'/>
+      <property key='showMethodType' value='true'/>
+      <property key='excludeMethodFilter' value=''/>
+      <property key='filterMethodViz' value='PUBLIC PROTECTED PACKAGE PRIVATE'/>
+      <property key='showStereotype' value='false'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.facade.BITWLAppModule::ApplicationModule' presentation='EXPANDED'/>
+      <size height='164.60000610351562' width='364.0'/>
+    </contained>
+    <contained xmi:type='DI:GraphEdge' xmi:id='idbe2b41f3-d134-4b2f-8e9f-9b6a367e630d' anchor='id3e120ca8-5ae2-4cb4-a2d9-0a8fed943b39 id3e120ca8-5ae2-4cb4-a2d9-0a8fed943b39'>
+      <contained xmi:type='DI:GraphNode' xmi:id='id553e6c9d-d9b0-46da-8f80-5d9f4df30cb7'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sourcename'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id0f5ebddc-d668-4371-80c0-c2bc0f5761d8'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sourcemultiplicity'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id4d27d6df-8e0a-4489-b52e-a0a03be3632c'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='stereotype'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id3e16231d-4a46-4b77-8cfa-d2ccf26c4a93'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id038d4602-2abb-4a94-9e27-397f71882e4c'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='destinationname'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='idc6271f11-5a81-42b6-9591-f411d62d3c0f'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='destinationmultiplicity'/>
+      </contained>
+      <property key='fontColor' value='#0'/>
+      <property key='showRoleNames' value='false'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='lineColor' value='#646464'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='showCardinality' value='true'/>
+      <property key='showAssocName' value='false'/>
+      <property key='EdgeType' value='1'/>
+      <property key='showStereotype' value='false'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.vo.EmpManagerFkLink::ViewLink'/>
+      <waypoint x='514.0' y='30.29998779296875'/>
+      <waypoint x='514.0' y='0.0'/>
+      <waypoint x='624.0' y='0.0'/>
+      <waypoint x='624.0' y='30.29998779296875'/>
+    </contained>
+    <contained xmi:type='DI:GraphEdge' xmi:id='id0e59f593-4bc7-49b9-8ed9-f6c843a1205d' anchor='idf3a3b560-8ed1-44b7-8532-95e15bf52305 idf3a3b560-8ed1-44b7-8532-95e15bf52305'>
+      <contained xmi:type='DI:GraphNode' xmi:id='id52ab6474-e507-48c6-9084-c12bf51783ce'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sourcename'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id6ba502f8-9c01-4604-92a9-693563ecd720'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='sourcemultiplicity'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='idb06a26b6-b6e2-4546-9ee7-e60e22519773'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='stereotype'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id507136a5-aa62-409b-8533-9b39a157260a'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='name'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id9f43fe3b-0afe-415f-b688-a4d673f1ed91'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='destinationname'/>
+      </contained>
+      <contained xmi:type='DI:GraphNode' xmi:id='id7043c063-8cf5-4b9b-806b-335c09b22a81'>
+        <position x='0.0' y='0.0'/>
+        <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='destinationmultiplicity'/>
+      </contained>
+      <property key='fontColor' value='#0'/>
+      <property key='showRoleNames' value='false'/>
+      <property key='lineWidth' value='1.0'/>
+      <property key='lineColor' value='#646464'/>
+      <property key='font' value='SansSerif,plain,11'/>
+      <property key='showCardinality' value='true'/>
+      <property key='showAssocName' value='false'/>
+      <property key='EdgeType' value='1'/>
+      <property key='showStereotype' value='false'/>
+      <semanticModel xmi:type='DI:CoreSemanticModelBridge' element='BM:::de.hahn.blog.inputtextwithlookup.model.bo.EmpManagerFkAssoc::BC4JAssociation'/>
+      <waypoint x='840.6666870117188' y='30.29998779296875'/>
+      <waypoint x='840.6666870117188' y='0.0'/>
+      <waypoint x='907.3333740234375' y='0.0'/>
+      <waypoint x='907.3333740234375' y='30.29998779296875'/>
+    </contained>
+    <property key='ContainerLayoutStyle' value='1'/>
+    <property key='PageOrientation' value='1'/>
+    <property key='showNonNavigable' value='false'/>
+    <property key='showNavIconWhenBothEnds' value='false'/>
+    <property key='DiagramLayoutStyle' value='1'/>
+    <property key='EdgeCrossingType' value='0'/>
+    <property key='snapToGrid' value='true'/>
+    <property key='gridSize' value='15'/>
+    <property key='antialiasText' value='true'/>
+    <property key='logicalModel' value='false'/>
+    <property key='showClassifierOwnedEnds' value='false'/>
+    <property key='minLayoutDistance' value='40'/>
+    <property key='maxShapeWidth' value='200'/>
+    <property key='showGrid' value='true'/>
+    <property key='maxEntriesInShape' value='10'/>
+    <property key='ForeignKeyNotation' value='0'/>
+    <property key='PaperOrientation' value='Portrait'/>
+    <property key='PaperWidth' value='595.19055'/>
+    <property key='PaperHeight' value='841.80475'/>
+    <property key='PaperLeftMargin' value='72.0'/>
+    <property key='PaperTopMargin' value='72.0'/>
+    <property key='PaperRightMargin' value='72.0'/>
+    <property key='PaperBottomMargin' value='72.0'/>
+    <property key='PrintAreaX' value='0'/>
+    <property key='PrintAreaY' value='0'/>
+    <property key='PrintAreaWidth' value='0'/>
+    <property key='PrintAreaHeight' value='0'/>
+    <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='adfbc_diagram'/>
+  </DI:Diagram>
+</xmi:XMI>

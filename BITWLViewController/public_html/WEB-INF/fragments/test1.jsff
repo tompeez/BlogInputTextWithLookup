@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:af="http://xmlns.oracle.com/adf/faces/rich" xmlns:f="http://java.sun.com/jsf/core">
+  <af:panelStretchLayout id="psl1">
+    <f:facet name="center">
+      <af:panelGroupLayout id="pgl1">
+        <af:panelFormLayout id="pfl1">
+          <af:inputText value="#{bindings.EmployeeId.inputValue}" label="#{bindings.EmployeeId.hints.label}" required="#{bindings.EmployeeId.hints.mandatory}"
+                        columns="#{bindings.EmployeeId.hints.displayWidth}" maximumLength="#{bindings.EmployeeId.hints.precision}"
+                        shortDesc="#{bindings.EmployeeId.hints.tooltip}" id="it4">
+            <f:validator binding="#{bindings.EmployeeId.validator}"/>
+            <af:convertNumber groupingUsed="false" pattern="#{bindings.EmployeeId.format}"/>
+          </af:inputText>
+          <af:inputText value="#{bindings.FirstName.inputValue}" label="#{bindings.FirstName.hints.label}" required="#{bindings.FirstName.hints.mandatory}"
+                        columns="#{bindings.FirstName.hints.displayWidth}" maximumLength="#{bindings.FirstName.hints.precision}"
+                        shortDesc="#{bindings.FirstName.hints.tooltip}" id="it1">
+            <f:validator binding="#{bindings.FirstName.validator}"/>
+          </af:inputText>
+          <af:inputText value="#{bindings.LastName.inputValue}" label="#{bindings.LastName.hints.label}" required="#{bindings.LastName.hints.mandatory}"
+                        columns="#{bindings.LastName.hints.displayWidth}" maximumLength="#{bindings.LastName.hints.precision}"
+                        shortDesc="#{bindings.LastName.hints.tooltip}" id="it3">
+            <f:validator binding="#{bindings.LastName.validator}"/>
+          </af:inputText>
+          <af:panelLabelAndMessage label="#{bindings.Email.hints.label}" id="plam1">
+            <af:inputText value="#{bindings.Email.inputValue}" label="#{bindings.Email.hints.label}" required="#{bindings.Email.hints.mandatory}"
+                          columns="#{bindings.Email.hints.displayWidth}" maximumLength="#{bindings.Email.hints.precision}"
+                          shortDesc="#{bindings.Email.hints.tooltip}" id="it2" simple="true">
+              <f:validator binding="#{bindings.Email.validator}"/>
+            </af:inputText>
+            <af:commandImageLink id="cil1" icon="/images/icon_Pruefen.gif" immediate="true" blocking="true">
+              <af:showPopupBehavior popupId="p1" triggerType="action"/>
+            </af:commandImageLink>
+          </af:panelLabelAndMessage>
+          <f:facet name="footer">
+            <af:panelGroupLayout layout="horizontal" id="pgl2">
+              <af:commandButton actionListener="#{bindings.First.execute}" text="First" disabled="#{!bindings.First.enabled}" partialSubmit="true" id="cb1"/>
+              <af:commandButton actionListener="#{bindings.Previous.execute}" text="Previous" disabled="#{!bindings.Previous.enabled}" partialSubmit="true"
+                                id="cb3"/>
+              <af:commandButton actionListener="#{bindings.Next.execute}" text="Next" disabled="#{!bindings.Next.enabled}" partialSubmit="true" id="cb4"/>
+              <af:commandButton actionListener="#{bindings.Last.execute}" text="Last" disabled="#{!bindings.Last.enabled}" partialSubmit="true" id="cb2"/>
+            </af:panelGroupLayout>
+          </f:facet>
+        </af:panelFormLayout>
+        <af:popup id="p1" contentDelivery="lazyUncached">
+          <af:dialog id="d1" title="Search" closeIconVisible="false" resize="on" contentWidth="300" contentHeight="440"
+                     dialogListener="#{BlogInputTextWithLookupBean.dialogListener}">
+            <af:panelGroupLayout layout="vertical" id="pgl3">
+              <af:panelHeader text="EMail" id="ph1">
+                <af:query id="qryId1" headerText="Search" disclosed="true" value="#{bindings.EmployeesEmailViewCriteriaQuery.queryDescriptor}"
+                          model="#{bindings.EmployeesEmailViewCriteriaQuery.queryModel}"
+                          queryListener="#{bindings.EmployeesEmailViewCriteriaQuery.processQuery}"
+                          queryOperationListener="#{bindings.EmployeesEmailViewCriteriaQuery.processQueryOperation}" resultComponentId="::resId1"
+                          saveQueryMode="hidden" modeChangeVisible="false"/>
+              </af:panelHeader>
+              <af:table value="#{bindings.EmployeesEmailView1.collectionModel}" var="row" rows="#{bindings.EmployeesEmailView1.rangeSize}"
+                        emptyText="#{bindings.EmployeesEmailView1.viewable ? 'No data to display.' : 'Access Denied.'}"
+                        fetchSize="#{bindings.EmployeesEmailView1.rangeSize}" rowBandingInterval="0"
+                        selectedRowKeys="#{bindings.EmployeesEmailView1.collectionModel.selectedRow}"
+                        selectionListener="#{bindings.EmployeesEmailView1.collectionModel.makeCurrent}" rowSelection="single" id="resId1">
+                <af:column sortProperty="Email" sortable="true" headerText="#{bindings.EmployeesEmailView1.hints.Email.label}" id="resId1c1">
+                  <af:outputText value="#{row.Email}" id="ot1"/>
+                </af:column>
+              </af:table>
+            </af:panelGroupLayout>
+          </af:dialog>
+        </af:popup>
+      </af:panelGroupLayout>
+      <!-- id="af_one_column_stretched"   -->
+    </f:facet>
+  </af:panelStretchLayout>
+</jsp:root>

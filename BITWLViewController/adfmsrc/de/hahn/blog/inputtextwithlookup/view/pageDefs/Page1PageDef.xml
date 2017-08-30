@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="11.1.1.62.29" id="Page1PageDef" Package="de.hahn.blog.inputtextwithlookup.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <taskFlow id="inputtextlookupbtf1" taskFlowId="/WEB-INF/input-text-lookup-btf.xml#input-text-lookup-btf" activation="deferred"
+              xmlns="http://xmlns.oracle.com/adf/controller/binding"/>
+    <iterator Binds="TestEmpView1" RangeSize="25" DataControl="BITWLAppModuleDataControl" id="TestEmpView1Iterator" ChangeEventPolicy="ppr"/>
+  </executables>
+  <bindings>
+    <attributeValues IterBinding="TestEmpView1Iterator" id="EmployeeId">
+      <AttrNames>
+        <Item Value="EmployeeId"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="TestEmpView1Iterator" id="FirstName">
+      <AttrNames>
+        <Item Value="FirstName"/>
+      </AttrNames>
+    </attributeValues>
+    <attributeValues IterBinding="TestEmpView1Iterator" id="LastName">
+      <AttrNames>
+        <Item Value="LastName"/>
+      </AttrNames>
+    </attributeValues>
+    <listOfValues StaticList="false" IterBinding="TestEmpView1Iterator" Uses="LOV_Email" id="Email"/>
+    <action IterBinding="TestEmpView1Iterator" id="First" RequiresUpdateModel="true" Action="first"/>
+    <action IterBinding="TestEmpView1Iterator" id="Previous" RequiresUpdateModel="true" Action="previous"/>
+    <action IterBinding="TestEmpView1Iterator" id="Next" RequiresUpdateModel="true" Action="next"/>
+    <action IterBinding="TestEmpView1Iterator" id="Last" RequiresUpdateModel="true" Action="last"/>
+  </bindings>
+</pageDefinition>

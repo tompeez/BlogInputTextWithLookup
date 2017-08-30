@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-definition id="input-text-lookup-btf">
+    <default-activity id="__1">test1</default-activity>
+    <managed-bean id="__5">
+      <managed-bean-name id="__4">BlogInputTextWithLookupBean</managed-bean-name>
+      <managed-bean-class id="__2">de.hahn.blog.inputtextwithlookup.view.beans.BlogInputTextWithLookupBean</managed-bean-class>
+      <managed-bean-scope id="__3">request</managed-bean-scope>
+    </managed-bean>
+    <view id="test1">
+      <page>/WEB-INF/fragments/test1.jsff</page>
+    </view>
+    <use-page-fragments/>
+  </task-flow-definition>
+</adfc-config>
